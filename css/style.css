@@ -274,7 +274,7 @@ li {
 ---------------------------------*/
 
 #works .card {
-  flex-basis: 31%;
+  /*flex-basis: 31%;*/
   margin-bottom: 60px;
 }
 
