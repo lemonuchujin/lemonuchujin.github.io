@@ -243,17 +243,8 @@ li {
 }
 
 .card-caption-title {
-  font-size: 12px;
   font-weight: bold;
   margin-top: 8px;
-}
-
-.card-caption-info {
-  font-size: 10px;
-}
-
-.card-caption-url {
-  font-size: 10px;
 }
 
 .card img.fadein {
@@ -581,7 +572,6 @@ li {
 
   #works .card:nth-child(2n+1):nth-last-child(-n+2),
   #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
-    margin-bottom: 0;
   }
 
   #works .card {
