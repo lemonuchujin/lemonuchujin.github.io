@@ -300,7 +300,7 @@ li {
 }
 
 #feature .section-image {
-  /*flex-basis: 58%;*/
+  flex-basis: 58%;
 }
 
 #feature .section-image img {
@@ -309,7 +309,7 @@ li {
 }
 
 #feature .section-desc {
-  /*flex-basis: 37%;*/
+  flex-basis: 37%;
 }
 
 /*--------------------------------
