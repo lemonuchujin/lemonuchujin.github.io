@@ -238,11 +238,8 @@ li {
 }
 
 .card-image img {
-  width: 70%;
-}
-
-.card-image {
-  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .card-caption {
