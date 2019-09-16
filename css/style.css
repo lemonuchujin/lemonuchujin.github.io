@@ -88,6 +88,7 @@ li {
 /*--------------------------------
  全体
 ---------------------------------*/
+
 #wrapper {
   padding-top: 68px;
 }
@@ -132,6 +133,7 @@ li {
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
+
 #header {
   display: flex;
   align-items: center;
@@ -228,6 +230,7 @@ li {
 /*--------------------------------
  Card
 ---------------------------------*/
+
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +238,10 @@ li {
 }
 
 .card-image img {
+  width: 70%;
+}
+
+.card-image {
   width: 70%;
 }
 
@@ -571,8 +578,7 @@ li {
   }
 
   #works .card:nth-child(2n+1):nth-last-child(-n+2),
-  #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
-  }
+  #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {}
 
   #works .card {
     /*flex-basis: 48%;*/
